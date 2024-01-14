@@ -19,8 +19,9 @@ This works as intended when the `anon` key is used in creating the supabase clie
 
 ### Tools
 Technology used in building the project include;
-- Angular v17
+- Angular v17: Frontend
 - Supabase: backend api & database
+- Netlify: deployment
 
 ### Credentials
 For convenience, disposable emails via [Yopmail](https://yopmail.com/en/) were used for the project. To have access to any of the emails, visit [Yopmail](https://yopmail.com/en/) and in the space to create a mailbox, type in the usernames. E.g. in jerry@yopmail.com, type in `jerry`. Authentications are by OTP.
