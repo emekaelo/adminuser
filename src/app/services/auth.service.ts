@@ -1,13 +1,12 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthService {
+  constructor() {}
 
-  constructor() { }
-
-  saveSessionToLocalStorage(session:any) {
+  saveSessionToLocalStorage(session: any) {
     localStorage.setItem('session', JSON.stringify(session));
   }
 
@@ -17,9 +16,9 @@ export class AuthService {
 
   isSignedIn() {
     try {
-    return JSON.parse(localStorage.getItem('session') ?? '')
+      return JSON.parse(localStorage.getItem('session') ?? '');
     } catch (error) {
-      return null
+      return null;
     }
   }
 }

@@ -1,9 +1,7 @@
 import {Component, inject} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterLink, RouterOutlet} from '@angular/router';
-import {FormGroup, ReactiveFormsModule} from "@angular/forms";
-import {SupabaseService} from "./services/supabase.service";
-import {AuthService} from "./services/auth.service";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @Component({
   selector: 'app-root',
